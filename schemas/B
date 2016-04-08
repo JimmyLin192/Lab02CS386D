@@ -1,0 +1,7 @@
+CREATE TABLE B (
+    pk INTEGER PRIMARY KEY,
+    ht INTEGER,
+    tt INTEGER,
+    ot INTEGER,
+    filler CHAR(247)
+);

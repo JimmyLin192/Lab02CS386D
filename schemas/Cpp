@@ -1,0 +1,10 @@
+CREATE TABLE Cpp (
+    pk INTEGER PRIMARY KEY,
+    ht INTEGER,
+    tt INTEGER,
+    ot INTEGER,
+    filler CHAR(247),
+    FOREIGN KEY (ht) REFERENCES A(pk),
+    FOREIGN KEY (tt) REFERENCES A(pk),
+    FOREIGN KEY (ot) REFERENCES A(pk)
+);

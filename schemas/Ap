@@ -1,0 +1,10 @@
+CREATE TABLE Ap (
+    pk INTEGER PRIMARY KEY,
+    ht INTEGER,
+    tt INTEGER,
+    ot INTEGER,
+    filler CHAR(247)
+);
+CREATE INDEX Ap_idx_ht ON Ap(ht);
+CREATE INDEX Ap_idx_tt ON Ap(tt);
+CREATE INDEX Ap_idx_ot ON Ap(ot);
