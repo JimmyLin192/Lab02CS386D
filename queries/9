@@ -1,0 +1,1 @@
+EXPLAIN SELECT * FROM A, B, C WHERE A.pk = B.tt and B.tt = C.tt;

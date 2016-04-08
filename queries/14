@@ -1,0 +1,1 @@
+EXPLAIN SELECT * FROM A, Bp, Cp WHERE A.pk = Bp.ot and Bp.ot = Cp.ot;

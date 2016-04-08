@@ -1,0 +1,1 @@
+EXPLAIN SELECT * FROM Ap, Bp, Cp WHERE Ap.tt = Bp.tt and Bp.tt = Cp.tt;

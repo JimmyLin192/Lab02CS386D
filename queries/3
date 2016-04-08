@@ -1,0 +1,1 @@
+EXPLAIN SELECT * FROM Ap, Bp WHERE Ap.ht = Bp.ht;
