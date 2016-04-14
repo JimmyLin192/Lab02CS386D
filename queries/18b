@@ -1,0 +1,6 @@
+EXPLAIN SELECT * FROM A, Bp, Cp WHERE Cp.ot = Bp.ht and Bp.ht = A.pk;
+EXPLAIN SELECT * FROM A, Cp, Bp WHERE Cp.ot = Bp.ht and Bp.ht = A.pk;
+EXPLAIN SELECT * FROM Bp, A, Cp WHERE Cp.ot = Bp.ht and Bp.ht = A.pk;
+EXPLAIN SELECT * FROM Bp, Cp, A WHERE Cp.ot = Bp.ht and Bp.ht = A.pk;
+EXPLAIN SELECT * FROM Cp, A, Bp WHERE Cp.ot = Bp.ht and Bp.ht = A.pk;
+EXPLAIN SELECT * FROM Cp, Bp, A WHERE Cp.ot = Bp.ht and Bp.ht = A.pk;

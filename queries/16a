@@ -1,0 +1,6 @@
+EXPLAIN SELECT * FROM A, B, C WHERE A.ht = B.ht and B.ht = C.ot;
+EXPLAIN SELECT * FROM A, C, B WHERE A.ht = B.ht and B.ht = C.ot;
+EXPLAIN SELECT * FROM B, A, C WHERE A.ht = B.ht and B.ht = C.ot;
+EXPLAIN SELECT * FROM B, C, A WHERE A.ht = B.ht and B.ht = C.ot;
+EXPLAIN SELECT * FROM C, A, B WHERE A.ht = B.ht and B.ht = C.ot;
+EXPLAIN SELECT * FROM C, B, A WHERE A.ht = B.ht and B.ht = C.ot;

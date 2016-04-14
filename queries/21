@@ -1,0 +1,1 @@
+EXPLAIN SELECT * FROM A, Bpp, Cpp where A.pk = Bpp.ot and Bpp.ot = Cpp.ot;

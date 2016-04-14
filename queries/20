@@ -1,0 +1,1 @@
+EXPLAIN SELECT * FROM A, Bpp, Cpp where A.pk = Bpp.ht and Bpp.ht = Cpp.ht;
